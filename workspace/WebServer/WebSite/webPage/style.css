@@ -1,0 +1,69 @@
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+	width:500px;
+}
+
+.page_title {
+	color:white;
+	font-size: 20px;
+	padding:10px;
+
+
+}
+/*http://stackoverflow.com/questions/796087/make-a-div-into-a-link*/
+.emptySpan {	
+  	position:absolute; 
+  	width:100%;
+  	height:100%;
+  	top:0;
+  	left: 0;
+
+  	/* edit: added z-index */
+  	z-index: 1;
+
+	background-image: url('Transparent.gif');
+}
+
+#tips{
+visibility:hidden;
+
+}
+
+.main_text{
+	color:white;
+	font-size: 20px;
+	padding:10px;
+
+}
+
+.masterTooltip{
+	color:#E8CF95;
+	
+}
+
+#body
+{
+background-image:url('background.jpg');
+vertical-align:text-top;
+
+}
+
+#content_table{
+opacity:0.8;
+border-bottom:1px dotted white;padding:5px;
+}
+
+table { border-collapse:collapse; }
+table, td, th { border-bottom:1px dotted white;padding:5px; }
+
+a, u{ 
+color: inherit;
+text-decoration: none;
+}
